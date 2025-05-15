@@ -1,9 +1,9 @@
 enabled: true
 welcome_comment:
-  enabled: true
+  enabled: false
   issue:
-    enabled: true
-    message: xxxxx
+    enabled: false
+    message: ''
   pull_request:
     enabled: false
     message: ''
