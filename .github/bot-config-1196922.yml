@@ -11,7 +11,7 @@ auto_label:
   enabled: true
   ai_model: grok
   issue:
-    enabled: false
+    enabled: true
     labels:
       - bug
       - feature-request
