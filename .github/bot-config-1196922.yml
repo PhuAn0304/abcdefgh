@@ -25,7 +25,7 @@ auto_label:
       - documentation
       - needs-review
 auto_assign:
-  enabled: false
+  enabled: true
 discord_notifications:
   enabled: false
   webhook_url: https://discord.com/api/webhooks/...
