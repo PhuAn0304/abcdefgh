@@ -1,1 +1,44 @@
-enabled%3A%20true%0Awelcome_comment%3A%0A%20%20enabled%3A%20false%0A%20%20issue%3A%0A%20%20%20%20enabled%3A%20false%0A%20%20%20%20message%3A%20''%0A%20%20pull_request%3A%0A%20%20%20%20enabled%3A%20false%0A%20%20%20%20message%3A%20''%0Aauto_label%3A%0A%20%20enabled%3A%20true%0A%20%20ai_model%3A%20grok%0A%20%20issue%3A%0A%20%20%20%20enabled%3A%20false%0A%20%20%20%20labels%3A%0A%20%20%20%20%20%20-%20bug%0A%20%20%20%20%20%20-%20feature-request%0A%20%20%20%20%20%20-%20question%0A%20%20%20%20%20%20-%20urgent%0A%20%20pull_request%3A%0A%20%20%20%20enabled%3A%20true%0A%20%20%20%20labels%3A%0A%20%20%20%20%20%20-%20fix%0A%20%20%20%20%20%20-%20enhancement%0A%20%20%20%20%20%20-%20documentation%0A%20%20%20%20%20%20-%20needs-review%0Aauto_assign%3A%0A%20%20enabled%3A%20false%0Adiscord_notifications%3A%0A%20%20enabled%3A%20false%0A%20%20webhook_url%3A%20https%3A%2F%2Fdiscord.com%2Fapi%2Fwebhooks%2F...%0A%20%20events%3A%20%5B%5D%0Apr_summary%3A%0A%20%20enabled%3A%20false%0A%20%20ai_model%3A%20grok%0A%20%20max_length%3A%20200%0Ascan%3A%0A%20%20enabled%3A%20false%0A%20%20issue%3A%0A%20%20%20%20enabled%3A%20false%0A%20%20%20%20prompt%3A%20''%0A%20%20pull_request%3A%0A%20%20%20%20enabled%3A%20false%0A%20%20%20%20prompt%3A%20''%0A
+enabled: true
+welcome_comment:
+  enabled: false
+  issue:
+    enabled: false
+    message: ''
+  pull_request:
+    enabled: false
+    message: ''
+auto_label:
+  enabled: true
+  ai_model: grok
+  issue:
+    enabled: false
+    labels:
+      - bug
+      - feature-request
+      - question
+      - urgent
+  pull_request:
+    enabled: true
+    labels:
+      - fix
+      - enhancement
+      - documentation
+      - needs-review
+auto_assign:
+  enabled: false
+discord_notifications:
+  enabled: false
+  webhook_url: https://discord.com/api/webhooks/...
+  events: []
+pr_summary:
+  enabled: false
+  ai_model: grok
+  max_length: 200
+scan:
+  enabled: false
+  issue:
+    enabled: false
+    prompt: ''
+  pull_request:
+    enabled: false
+    prompt: ''
